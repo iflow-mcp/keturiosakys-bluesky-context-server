@@ -5,7 +5,7 @@ import type {
 	ServerRequest,
 } from "@modelcontextprotocol/sdk/types.js";
 import { type ZodRawShape, z } from "zod";
-import { tryCatchAsync } from "./utils.ts";
+import { tryCatchAsync } from "./utils.js";
 
 // Define Zod schemas for tool parameters (shapes only)
 const PagingSchema: ZodRawShape = {

@@ -1,7 +1,7 @@
 #!/usr/bin/env node --experimental-strip-types
 
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
-import { setupServer } from "../src/server.ts";
+import { setupServer } from "../src/server.js";
 
 async function main() {
 	const blueskyToken = process.env.BLUESKY_APP_KEY;
