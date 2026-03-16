@@ -1,0 +1,3 @@
+{
+  "serverConfig": "{\"mcpServers\": {\"bluesky-context-server\": {\"command\": \"npx\", \"args\": [\"-y\", \"@iflow-mcp/keturiosakys-bluesky-context-server\"], \"env\": {\"BLUESKY_IDENTIFIER\": \"${BLUESKY_IDENTIFIER}\", \"BLUESKY_APP_KEY\": \"${BLUESKY_APP_KEY}\"}, \"values\": {\"BLUESKY_IDENTIFIER\": {\"type\": \"string\", \"description\": \"Bluesky用户标识符\", \"default\": \"test.bsky.social\"}, \"BLUESKY_APP_KEY\": {\"type\": \"string\", \"description\": \"Bluesky应用密钥\", \"default\": \"test-password-12345\"}}}}}"
+}
